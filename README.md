@@ -28,3 +28,8 @@ Dashboard de gestão de operações de aprendizagem corporativa (T&D), construí
 | Deploy | GitHub → Vercel (CI/CD) |
 
 ## Por que arquivo único?
+Decisão deliberada para o contexto: zero dependência de build, qualquer pessoa da operação consegue abrir localmente, e o deploy é um `git push`. Para o volume de dados atual (~1.300 registros embutidos), a performance permanece instantânea.
+
+## Autor
+
+**Matheus Xavier** — análise de dados e desenvolvimento de ferramentas operacionais para L&D.
